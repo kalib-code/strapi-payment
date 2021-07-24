@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment",
+  "info": {
+    "name": "payment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "store_name": {
+      "type": "string"
+    },
+    "store_id": {
+      "type": "uid"
+    },
+    "public_key": {
+      "type": "password"
+    },
+    "secret_key": {
+      "type": "password"
+    }
+  }
+}

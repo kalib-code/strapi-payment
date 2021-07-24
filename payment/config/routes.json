@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "payment.index",
+      "config": {
+        "policies": []
+      }
+      
+    },
+    {
+      "method": "POST",
+      "path": "/:id",
+      "handler": "payment.findOne",
+      "config": {
+        "policies": []
+      }
+      
+    }
+  ]
+}
